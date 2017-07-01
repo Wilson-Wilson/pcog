@@ -28,7 +28,7 @@ public class Sermon2 extends Activity implements OnClickListener,
 	private SeekBar seekBar;
 	private MediaPlayer mediaPlayer;
 	private int lengthOfAudio;
-	private final String URL = "https://drive.google.com/uc?export=download&id=0B1VzuZrVMPLNUWRqZjNTY1dKS00";
+	private final String URL = "https://drive.google.com/uc?export=download&id=0B1VzuZrVMPLNT1Y5YnFOQ002QlU";
 	private static final int MINUTES_IN_AN_HOUR = 60;
 	private static final int SECONDS_IN_A_MINUTE = 60;
 	private final Handler handler = new Handler();
@@ -52,6 +52,7 @@ public class Sermon2 extends Activity implements OnClickListener,
 		setContentView(R.layout.activity_main2);
 		initialize_Controls();
 		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+		toolbar.setTitle("Sermon : For Every Blessings");
 
 		// add back arrow to toolbar
 		img = (ImageButton) findViewById(R.id.backbtn);

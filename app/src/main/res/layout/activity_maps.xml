@@ -31,11 +31,11 @@
             android:background="@color/colorPrimary"
             android:gravity="left|center"
             android:paddingLeft="20dp"
-            android:text="Location"
+            android:text="Church Location"
             android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:visibility="visible"
-            tools:text="Location" />
+            tools:text="Church Location" />
 
         <include
             layout="@layout/app_bar_main"
@@ -54,7 +54,7 @@
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp"
+            android:layout_margin="10sp"
             android:layout_weight="1" />
 
         <android.support.design.widget.CoordinatorLayout

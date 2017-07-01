@@ -12,6 +12,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dip"
         android:layout_weight="0.50"
+        android:background="@color/cardview_light_background"
         android:elevation="1dp"
         app:cardElevation="0dp">
 

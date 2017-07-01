@@ -19,15 +19,6 @@
             android:icon="@drawable/leader"
             android:title="Leadership" />
         <item
-            android:id="@+id/nav_location"
-            android:icon="@drawable/map"
-            android:title="Location" />
-        <item
-            android:id="@+id/nav_call"
-            android:icon="@drawable/contac"
-            android:title="Contact Us" />
-
-        <item
             android:id="@+id/nav_about"
             android:icon="@drawable/about"
             android:title="About Us" />
